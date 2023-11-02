@@ -1,11 +1,13 @@
 import React from "react";
 
+import { H1 } from "../components/Heading";
+
 const Welcome = () => {
   return (
     <div className="container">
       <div className="wrapper">
         <div className="welcome">
-          <h1>Добро пожаловать в квиз от лучшего учебного центра</h1>
+          <H1 />
           <form className="welcome__form">
             <label className="input-wrapper" htmlFor="username">
               Ваше имя
